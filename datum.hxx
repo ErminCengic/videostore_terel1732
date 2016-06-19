@@ -6,7 +6,7 @@
 class Datum{  
     friend std::ostream& operator<<(std::ostream&, const Datum&);
     private:
-      int _godina, _mjesec, _dan;
+      int _godina, _mjesec , _dan;
     public: 
       Datum() = default;
       Datum(int,int,int);
